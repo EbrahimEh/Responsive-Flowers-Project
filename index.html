@@ -4,11 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flowers Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="./src/output.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-
+<body class="bg-[#F5F8FF]">
+    <header class="md:max-w-6xl mx-auto pt-4 p-2">
+        <nav class="flex justify-between w-full items-center">
+            <!-- ---nav logo -->
+             <div class="">
+                <img class="w-36" src="assets/logo.png" alt="">
+             </div>
+             
+             <!-- -----navlinks-- -->
+              <div class="">
+                <ul class="flex space-x-5 md:space-x-12">
+                    <div class="space-x-5 md:space-x-12 hidden md:flex">
+                        <li><a href="#">Home</a></li>
+                    <li class="text-[#8987A1]"><a href="#">Shop</a></li>
+                    <li class="text-[#8987A1]"><a href="#">About Us</a></li>
+                    </div>
+                    <div class="flex items-center space-x-3 ">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p>Cart ($56)</p>
+                    </div>
+                </ul>
+              </div>
+        </nav>
     </header>
 
     <main>
